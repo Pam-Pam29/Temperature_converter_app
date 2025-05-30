@@ -2,7 +2,7 @@
 
 A Flutter mobile application that converts temperatures between Fahrenheit and Celsius with history tracking and a responsive design.
 
-## 📱 Features
+##  Features
 
 - **Dual Conversion Support**: Convert between Fahrenheit to Celsius and Celsius to Fahrenheit
 - **Precise Calculations**: Results displayed to exactly 2 decimal places
@@ -11,14 +11,14 @@ A Flutter mobile application that converts temperatures between Fahrenheit and C
 - **Responsive Design**: Optimised for both portrait and landscape orientations
 - **Modern UI**: Clean, Material Design-inspired interface
 
-## 🧮 Conversion Formulas
+##  Conversion Formulas
 
 The app uses the standard temperature conversion formulas:
 - **Celsius to Fahrenheit**: °F = °C × 9/5 + 32
 - **Fahrenheit to Celsius**: °C = (°F - 32) × 5/9
 
 
-## 🏗️ App Architecture
+##  App Architecture
 
 ### **Main Components**
 
@@ -41,7 +41,7 @@ The app uses the standard temperature conversion formulas:
 - `conversionResult`: Stores calculated result
 - `conversionHistory`: List of all conversion records
 
-## 🔧 Widgets Used
+##  Widgets Used
 
 ### **Layout Widgets**
 - `Scaffold`: Main app structure
@@ -69,7 +69,7 @@ The app uses the standard temperature conversion formulas:
 - `ListView.builder`: Dynamic history list
 
 
-## 📐 Responsive Design
+##  Responsive Design
 
 ### **Portrait Orientation**
 - Vertical layout with full-height history section
@@ -81,7 +81,7 @@ The app uses the standard temperature conversion formulas:
 - Maintained functionality and accessibility
 - Consistent visual design
 
-## 🛠️ Installation & Setup
+##  Installation & Setup
 
 ### **Prerequisites**
 - Flutter SDK (latest stable version)
@@ -123,11 +123,11 @@ flutter build ios --release
    - 0°C → 32.00°F
 
 
-## 🤝 Contributing
+##  Contributing
 
 This is an academic project, but we welcome suggestions for improvement.
 
-## 📄 License
+##  License
 
 This project is created for educational purposes as part of a Flutter development course.
 
